@@ -1,0 +1,9 @@
+import sys
+import tkinter as tk
+import tkinter.messagebox as tkm
+import requests
+from bs4 import BeautifulSoup
+
+root = tk.Tk()
+root.title("今日の天気")
+root.geometry("400x500")
